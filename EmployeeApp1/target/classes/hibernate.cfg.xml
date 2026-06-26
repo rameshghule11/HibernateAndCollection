@@ -4,13 +4,19 @@
 	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 
 	<hibernate-configuration>
+	
 	<session-factory>
-	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/VMT1</property>
+	
+	
+	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/VMTE1</property>
 	<property name="hibernate.connection.name">root</property>
 	<property name="hibernate.connection.password">root</property>
 	<property name="hibernate.connection.driver-class-name">com.mysql.cj.jdbc.Driver</property>
 	<property name="hibernate.hbm2ddl.auto">update</property>
 	
 	<mapping class="com.vmt.entity.EmployeeApp1"/>
+	
+	
 	</session-factory>
+	
 	</hibernate-configuration>
