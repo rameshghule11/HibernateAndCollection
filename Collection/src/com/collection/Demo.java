@@ -1,6 +1,7 @@
 package com.collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Demo {
 
@@ -36,6 +37,19 @@ public class Demo {
 //			System.out.println(al.lastIndexOf("ash"));
 //			System.out.println(al.remove(1));
 			
+			 for(int i=0;i<al.size();i++) {
+				 System.out.println("Using for Loop: "+al.get(i));
+			 }
+			 
+			 for(String s:al) {
+				 System.out.println("Using ForEach: "+s);
+			 }
+			 
+			 Iterator<String> itr=al.iterator();
+			 while(itr.hasNext()) {
+				 System.out.println("Using iterator: "+itr.next());
+			 }
+			 
 			 
 	}
 }
