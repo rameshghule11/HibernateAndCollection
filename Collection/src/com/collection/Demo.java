@@ -63,5 +63,11 @@ public class Demo {
 			 }
 			 
 			 
+			 ListIterator<String>itr4=al.listIterator();
+			 while(((ListIterator<String>) itr).hasPrevious())
+			 {
+				 System.out.println(itr.previous);
+			 }
+			 
 	}
 }
