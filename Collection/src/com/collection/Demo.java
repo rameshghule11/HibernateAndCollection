@@ -2,6 +2,7 @@ package com.collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class Demo {
 
@@ -48,6 +49,17 @@ public class Demo {
 			 Iterator<String> itr=al.iterator();
 			 while(itr.hasNext()) {
 				 System.out.println("Using iterator: "+itr.next());
+			 }
+			 
+			 Iterator<Float> itr1=fl.iterator();
+			 while(itr1.hasNext()) {
+				 System.out.println("Using Float itr: "+itr1.next());
+			 }
+			 
+			 
+			 ListIterator<String> itr3= al.listIterator();
+			 while(itr.hasNext()) {
+				 System.out.println(itr.next());
 			 }
 			 
 			 
