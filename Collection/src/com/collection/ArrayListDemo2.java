@@ -63,6 +63,25 @@ public static void main(String[] args) {
 		System.out.println("ListIterator: "+itr1.next());
 	}
 	
+	System.out.println("==============================================================================");
+	ArrayList<Employee> emp=new ArrayList<Employee>();
+
+	emp.add(	new Employee(1,"Banti","India",54000,"It","Male"));
+	emp.add(	new Employee(2,"kalu","Pune",54000,"It","Female"));
+	emp.add(	new Employee(2,"Dnyanu","jkd",54000,"It","female"));
+	emp.add(	new Employee(4,"Ash","Palet",54000,"It","Male"));
+	
+	
+	for(Employee E:emp) {
+		System.out.println(E);
+	}
+	
+	System.out.println("====================================================================");
+	
+	for(Employee e:emp) {
+		if(e.getName().equals("kalu"))
+		System.out.println(e);
+	}
 	
     }
  }

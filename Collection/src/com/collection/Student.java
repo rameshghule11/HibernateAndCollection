@@ -1,6 +1,6 @@
 package com.collection;
 
-public class Student {
+public class Student extends Object {
 
 	private int id;
 	private String name;
@@ -25,6 +25,8 @@ public class Student {
 	public void setAddress(String address) {
 		this.address=address;
 	}
+	
+	// Convert the object address into  String 
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", address=" + address + "]";
