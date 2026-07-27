@@ -58,16 +58,18 @@ public class Demo {
 			 
 			 
 			 ListIterator<String> itr3= al.listIterator();
-			 while(itr.hasNext()) {
-				 System.out.println(itr.next());
+			 while(itr3.hasNext()) {
+				 System.out.println("UseList: "+itr3.next());
 			 }
 			 
+			 System.out.println("=========================================================");
 			 
-			 ListIterator<String>itr4=al.listIterator();
-			 while(((ListIterator<String>) itr).hasPrevious())
+			
+			 while(itr3.hasPrevious())
 			 {
-				 System.out.println(itr.previous);
+				 System.out.println("UseListPrevious: "+itr3.previous());
 			 }
+			 
 			 
 	}
 }
