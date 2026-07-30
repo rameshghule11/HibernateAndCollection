@@ -98,5 +98,31 @@ public static void main(String[] args) {
 		System.out.println("User: "+u);
 	}
 	
+	
+	ArrayList<Product> pro=new ArrayList<Product>();
+	
+	pro.add(new Product(1,"parleji",50));
+	pro.add(new Product(2,"gotya",2));
+	pro.add(new Product(3,"poonamkangan",100));
+	
+	for(Product p:pro) {
+		System.out.println("product: "+p);
+	}
+	
+		ArrayList<Shop> shop=new ArrayList<Shop>();
+		
+		
+		shop.add(new Shop("ShreeGanesh","bottal","Gotu", 20000));
+		shop.add(new Shop("ShreeGanesh","bottal","Gotu", 20000));
+		shop.add(new Shop("ShreeGanesh","bottal","Gotu", 20000));
+		shop.add(new Shop("ShreeGanesh","bottal","Gotu", 20000));
+		shop.add(new Shop("ShreeGanesh","bottal","Gotu", 20000));
+		shop.add(new Shop("ShreeGanesh","bottal","Gotu", 20000));
+		
+		for(Shop s:shop) {
+			System.out.println("Shop :"+s);
+		}
+	
+	
     }
  }
