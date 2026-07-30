@@ -64,6 +64,8 @@ public static void main(String[] args) {
 	}
 	
 	System.out.println("==============================================================================");
+	
+	
 	ArrayList<Employee> emp=new ArrayList<Employee>();
 
 	emp.add(	new Employee(1,"Banti","India",54000,"It","Male"));
@@ -81,6 +83,19 @@ public static void main(String[] args) {
 	for(Employee e:emp) {
 		if(e.getName().equals("kalu"))
 			System.out.println(e);
+	}
+	
+	ArrayList<User> use=new ArrayList<User>();
+	
+	use.add(new User(1,"Banti","rameshghule112002@gmail.com"));
+	use.add(new User(2,"Dnyanu","dnyaneshwarijaybhai2005@gmail.com"));
+	use.add(new User(3,"motapatlu","motapatlu1001@gmail.com"));
+	use.add(new User(4,"khadus","khadus1001@gmail.com"));
+	
+	
+	for(User u:use) {
+		
+		System.out.println("User: "+u);
 	}
 	
     }
