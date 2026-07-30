@@ -80,7 +80,7 @@ public static void main(String[] args) {
 	
 	for(Employee e:emp) {
 		if(e.getName().equals("kalu"))
-		System.out.println(e);
+			System.out.println(e);
 	}
 	
     }
