@@ -28,11 +28,13 @@ public class LinkedListDemo {
 		list1.add("amar");
 		list1.add("kalu");
 		
+		System.out.println("name: "+list1);
+		
 		//ListIterator<String> itrs=list1.listIterator();
-		Iterator<String> itrs=list1.iterator();
-		while(itrs.hasNext()) {
-			System.out.println("List2: "+itrs.next());
-		}
+//		Iterator<String> itrs=list1.iterator();
+//		while(itrs.hasNext()) {
+//			System.out.println("List2: "+itrs.next());
+//		}
 		
 	}
 }
