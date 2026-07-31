@@ -14,10 +14,24 @@ public class LinkedListDemo {
 		list.add(25);
 		list.add(57);
 		
-		ListIterator<Integer> itr=list.listIterator();
+		// ListIterator<Integer> itr=list.listIterator();
+		Iterator<Integer> itr=list.iterator();
 		
 		while(itr.hasNext()) {
 			System.out.println("List :"+ itr.next());
+		}
+		
+		
+		LinkedList<String>list1=new LinkedList<String>();
+		list1.add("banti");
+		list1.add("milind");
+		list1.add("amar");
+		list1.add("kalu");
+		
+		//ListIterator<String> itrs=list1.listIterator();
+		Iterator<String> itrs=list1.iterator();
+		while(itrs.hasNext()) {
+			System.out.println("List2: "+itrs.next());
 		}
 		
 	}
