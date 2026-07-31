@@ -122,7 +122,22 @@ public static void main(String[] args) {
 		for(Shop s:shop) {
 			System.out.println("Shop :"+s);
 		}
+		
+		
+		ArrayList<Student1> s=new ArrayList<Student1>();
+		
+		s.add(new Student1(1,99,"banti","it","male"));
+		s.add(new Student1(1,99,"ash","it","male"));
+		s.add(new Student1(1,99,"pamu","it","male"));
+		s.add(new Student1(1,99,"yash","it","male"));
+		s.add(new Student1(1,99,"banti","it","male"));
 	
+		
+		
+		Iterator<Student1> itrs=s.iterator();
+		while(itrs.hasNext()) {
+			System.out.println("Student: "+itrs.next());
+		}
 	
     }
  }
