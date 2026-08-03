@@ -1,6 +1,8 @@
 package com.map;
 
 import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class HashMapDemo {
 
@@ -36,7 +38,29 @@ public class HashMapDemo {
 		map.put("Banti","Gamer");
 		map.put("Banti","vloger");
 		
-		System.out.println(map);
+		//System.out.println(map);
 		
+		//HashMap Methods - same -> LinkedHashMap, TreeMap,HashTable 
+		
+		// System.out.println(map.size());--> to check Size of Map Duplicate is now allow not add duplicate values 
+		//System.out.println(map.keySet()); --> to get  only key from map 
+		//System.out.println(map.values());-->to get  only values from map
+		//	System.out.println(map.isEmpty()); //to check map is empty or not 
+		//map.clear();//--> to remove all entries form map
+		//System.out.println(map.get("Banti"));--> give the key get the value 
+		//System.out.println(map.remove("kalpesh"));give the key And remove key and  value
+		//System.out.println(map);
+		//map.replace("kalpesh","javaDevloper"); use to replace And Update Values
+		//System.out.println(map);
+		//System.out.println(map.containsKey("Banti"));--> to Check key is Prsent or not 
+		//System.out.println(map.containsValue("javaDevloper"));--> to Check value is Avlable or not
+		
+		//Alt + Shift + L to get the return type
+		Set<Entry<String, String>> entrySet = map.entrySet();
+		
+		for(Entry<String, String> data:entrySet) {
+			System.out.println(data.getKey()+"= "+data.getValue());
+			
+		}
 	}
 }
