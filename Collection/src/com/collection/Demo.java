@@ -70,6 +70,19 @@ public class Demo {
 				 System.out.println("UseListPrevious: "+itr3.previous());
 			 }
 			 
+			 ArrayList<String> ar=new ArrayList<String>();
+			
+			 ar.add("Banti");
+			 ar.add("Hello");
+			 ar.add("Ramesh");
+			 ar.add("Jinhu");
+			 ar.add("Ash");
+			 
+			 Iterator<String>it=ar.iterator();
+			 while(it.hasNext()) {
+				 System.out.println("Arr It: +"+it.next());
+			 }
+			// System.out.println(ar);
 			 
 	}
 }
