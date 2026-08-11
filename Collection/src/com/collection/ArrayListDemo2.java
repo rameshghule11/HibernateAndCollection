@@ -138,6 +138,32 @@ public static void main(String[] args) {
 		while(itrs.hasNext()) {
 			System.out.println("Student: "+itrs.next());
 		}
+		
+		ArrayList<Student4>student=new ArrayList<Student4>();
 	
+		student.add(new Student4(1,"banti",99,"it","male"));
+		student.add(new Student4(2,"banti",99,"it","male"));
+		student.add(new Student4(3,"banti",99,"it","male"));
+		student.add(new Student4(4,"banti",99,"it","male"));
+		student.add(new Student4(5,"banti",99,"it","male"));
+		student.add(new Student4(6,"banti",99,"it","male"));student.add(new Student4(1,"banti",99,"it","male"));
+		student.add(new Student4(7,"banti",99,"it","male"));
+		student.add(new Student4(8,"banti",99,"it","male"));
+		student.add(new Student4(9,"banti",99,"it","male"));
+		student.add(new Student4(10,"banti",99,"it","male"));
+		student.add(new Student4(11,"banti",99,"it","male"));
+		student.add(new Student4(12,"banti",99,"it","male"));
+		student.add(new Student4(13,"banti",99,"it","male"));
+		student.add(new Student4(14,"banti",99,"it","male"));
+		student.add(new Student4(15,"banti",99,"it","male"));
+		student.add(new Student4(16,"banti",99,"it","male"));
+		
+		//System.out.println("Student NOw:"+student);
+		
+		Iterator<Student4>itr4=student.iterator();
+		
+		while(itr4.hasNext()) {
+			System.out.println("New: "+itr4.next());
+		}
     }
  }
