@@ -57,7 +57,8 @@ public class HashMapDemo {
 		//System.out.println(map.containsValue("javaDevloper"));--> to Check value is Avlable or not
 		
 		//Alt + Shift + L to get the return type
-		Set<Entry<String, String>> entrySet = map.entrySet();
+		Set<Entry<String, String>> entrySet2 = map.entrySet();
+		Set<Entry<String, String>> entrySet = entrySet2;
 		
 		// This is way to Iterate to HashMap.
 		for(Entry<String, String> data:entrySet) {
@@ -73,5 +74,16 @@ LinkedHashMap<String, String> map1=new LinkedHashMap<String,String>();
 		map1.put("Banti","vloger");
 		
 		System.out.println("Linked Hash Map: "+map1);
+		
+		
+		LinkedHashMap<String,String> map2=new LinkedHashMap<String,String>();
+		
+		map2.put("Banti","Gamer");
+		map2.put("Milind", "tester");
+		map2.put("Jinhu","Hunter");
+		map2.put("Ash","Pokemon Trainer");
+		map2.put("Tanjiro","Demon Slayer");
+		
+		System.out.println(map2);
 	}
 }

@@ -84,5 +84,7 @@ public class Demo {
 			 }
 			// System.out.println(ar);
 			 
+			 ArrayList<Student3>student=new ArrayList<Student3>();
+			 
 	}
 }
