@@ -18,7 +18,7 @@ public class LinkedHashMapDemo {
 	        map.put("Amit", "Teacher");
 	        map.put("Rahul", "Engineer");
 
-	        System.out.println(map);
+	        System.out.println("LHM: "+map);
 	
 	
 	TreeMap<String,String> tre=new TreeMap<String,String>();
@@ -27,7 +27,19 @@ public class LinkedHashMapDemo {
 	tre.put("kalpesh","Teacher");
 	tre.put("Banti","Gamer");
 	tre.put("Banti","vloger");
-	System.out.println(tre);
+	System.out.println("TreeM: "+tre);
+	
+	
+	TreeMap<String,String> trm=new TreeMap<String,String>();
+	trm.put("Snax","Gamer");
+	trm.put("mavi","IGL");
+	trm.put("Jonthan","Goat");
+	trm.put("Goblin","Asulter");
+	trm.put("ShreeMaan","All Rounder");
+	trm.put("Banti","Legend");
+	
+	System.out.println("TreeMap: "+trm);
+	
 	
 	
 	Hashtable<String,String> tb=new Hashtable<String,String>();
@@ -46,9 +58,15 @@ public class LinkedHashMapDemo {
 	ht.put("Value", 20);
 	ht.put("Price", 20);
 	
-	System.out.println(ht);
+	System.out.println("Values: "+ht);
 
+	Hashtable<String,String> htb=new Hashtable<String,String>();
+	htb.put("Ash","Pikachu");
+	htb.put("Jinhu","Hunter");
+	htb.put("Nobita","Doremon");
+	htb.put("Elie","Slug");
 	
+	System.out.println("Table: "+htb);
 	
 	}
 	
